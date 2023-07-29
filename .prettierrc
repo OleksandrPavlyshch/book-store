@@ -1,0 +1,31 @@
+# Opinionated code formatter which removes all original styling and
+# ensures that all outputted code conforms to a consistent style by
+# reprinting the parsed AST with its own rules.
+# © Prettier <https://prettier.io>
+
+# LF at the end of the line.
+endOfLine: lf
+
+# Line length used to wrap on.
+printWidth: 80
+
+# Single quotes for string literal.
+singleQuote: true
+
+# No trailing commas on multi-line.
+trailingComma: none
+
+# Vue indent for script and style.
+vueIndentScriptAndStyle: true
+
+# Pug single quote.
+pugSingleQuote: false
+
+# Pug wrap attributes threshold.
+pugWrapAttributesThreshold: 1
+
+# Pug closing bracket position.
+pugClosingBracketPosition: 'last-line'
+
+# Pug single file component indentation.
+pugSingleFileComponentIndentation: true
